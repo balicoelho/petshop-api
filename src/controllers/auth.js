@@ -25,7 +25,7 @@ const login = async (request, response) => {
 
     const token = jwt.sign(
       { userId: user.rows[0].id },
-      "984y503984yerfiohberlfikerbfkljhb",
+      "SenhaParaGerarMeuToken",
       { expiresIn: "1h" }
     );
 
